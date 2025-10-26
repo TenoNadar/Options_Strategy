@@ -1,0 +1,76 @@
+NIFTY OPTIONS BACKTESTING - PERFORMANCE REPORT
+================================================================================
+
+
+MEAN REVERSION STRATEGY
+--------------------------------------------------------------------------------
+CAGR (%)                      :          -11.21
+Maximum_Drawdown (%)          :           -3.26
+Sharpe_Ratio                  :           -5.00
+Win_Rate (%)                  :           33.33
+Total_Trades                  :               3
+Winning_Trades                :               1
+Losing_Trades                 :               2
+Avg_Profit_Per_Trade          :        11359.12
+Avg_Loss_Per_Trade            :       -45797.17
+Total_Return (%)              :           -8.02
+Final_Capital                 :       919764.78
+Profit_Factor                 :            0.12
+Max_Consecutive_Wins          :               1
+Max_Consecutive_Losses        :               2
+
+DIRECTIONAL STRATEGY
+--------------------------------------------------------------------------------
+CAGR (%)                      :           13.50
+Maximum_Drawdown (%)          :           -3.82
+Sharpe_Ratio                  :           -3.46
+Win_Rate (%)                  :           66.67
+Total_Trades                  :               3
+Winning_Trades                :               2
+Losing_Trades                 :               1
+Avg_Profit_Per_Trade          :        68336.39
+Avg_Loss_Per_Trade            :       -43461.02
+Total_Return (%)              :            9.32
+Final_Capital                 :      1093211.76
+Profit_Factor                 :            3.14
+Max_Consecutive_Wins          :               2
+Max_Consecutive_Losses        :               1
+
+SEMI-DIRECTIONAL STRATEGY
+--------------------------------------------------------------------------------
+CAGR (%)                      :           22.60
+Maximum_Drawdown (%)          :            0.00
+Sharpe_Ratio                  :           22.94
+Win_Rate (%)                  :          100.00
+Total_Trades                  :               3
+Winning_Trades                :               3
+Losing_Trades                 :               0
+Avg_Profit_Per_Trade          :        51391.35
+Avg_Loss_Per_Trade            :               0
+Total_Return (%)              :           15.42
+Final_Capital                 :      1154174.05
+Profit_Factor                 :       154174.05
+Max_Consecutive_Wins          :               3
+Max_Consecutive_Losses        :               0
+
+
+COMBINED PORTFOLIO
+--------------------------------------------------------------------------------
+CAGR (%)                      :           22.60
+Maximum_Drawdown (%)          :          -19.31
+Sharpe_Ratio                  :            3.65
+Win_Rate (%)                  :           66.67
+Total_Trades                  :               9
+Winning_Trades                :               6
+Losing_Trades                 :               3
+Avg_Profit_Per_Trade          :        50367.66
+Avg_Loss_Per_Trade            :       -45018.45
+Total_Return (%)              :           15.42
+Final_Capital                 :      1154174.05
+Profit_Factor                 :            2.24
+Max_Consecutive_Wins          :               3
+Max_Consecutive_Losses        :               1
+Calmar_Ratio                  :            1.17
+
+
+Calmar Ratio Requirement: FAILED

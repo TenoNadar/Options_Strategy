@@ -80,11 +80,11 @@ Date       | Capital
 6. Only trading **NIFTY** (proper filtering)
 
 ### ⚠️ Challenges
-1. **Limited data**: Only 5 trading days available
+1. **Limited data**: Only 3 trading days available
 2. **Calmar Ratio**: 1.17 (below required ≥5)
    - Reason: Early losses from Mean Reversion pull down combined MDD
    - Note: Semi-Directional alone has Calmar = ∞ (infinite, no drawdown)
-3. **Mean Reversion** struggles with only 5 days of data
+3. **Mean Reversion** struggles with only 3 days of data
 
 ## Recommendations
 

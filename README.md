@@ -95,7 +95,7 @@ Date       | Capital
 4. With full year of data, expect improved Calmar ratio
 
 ### Data Requirements
-- Current: 5 trading days (Jan-Mar, Sep-Oct 2025)
+- Current: 3 trading days (Jan-Mar, Sep-Oct 2025)
 - Recommended: Full 252 trading days for robust backtest
 - Minimum: 30-60 days for meaningful statistics
 

@@ -25,7 +25,7 @@ def get_entry_signal(date, current_underlying, date_data, backtest_framework):
         tuple: (option_type, should_entry)
     """
     # Get all intraday data up to current point
-    if len(date_data) == 0:
+    if len(date_data)< 1:
         return None, False
     
     current_datetime = date_data['DateTime'].iloc[-1]
@@ -34,11 +34,11 @@ def get_entry_signal(date, current_underlying, date_data, backtest_framework):
     historical_intraday = date_data.copy()
     
     # Need at least 20 minutes of data
-    if len(historical_intraday) < 200:
+    if len(historical_intraday) < 300:
         return None, False
     
     # Calculate 20-minute moving average
-    recent_avg = historical_intraday['UNDERLYING'].tail(20).mean()
+    recent_avg = historical_intraday['UNDERLYING'].tail(25).mean()
     
     if pd.isna(recent_avg) or recent_avg <= 0:
         return None, False

@@ -34,7 +34,7 @@ def get_entry_signal(date, current_underlying, date_data, backtest_framework):
     historical_intraday = date_data.copy()
     
     # Need at least 20 minutes of data
-    if len(historical_intraday) < 20:
+    if len(historical_intraday) < 200:
         return None, False
     
     # Calculate 20-minute moving average
@@ -44,8 +44,8 @@ def get_entry_signal(date, current_underlying, date_data, backtest_framework):
         return None, False
     
     # Momentum thresholds: 0.5% deviation - only strong trends
-    upper_threshold = recent_avg * 1.005
-    lower_threshold = recent_avg * 0.995
+    upper_threshold = recent_avg * 1.085
+    lower_threshold = recent_avg * 0.1125
     
     # Strong uptrend - Buy CE (expecting continuation up)
     # Require very strong confirmation
